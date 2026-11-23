@@ -5,8 +5,11 @@ import { join } from "node:path";
 // bounty on make.fun and let AI agents compete for the reward. The sponsor
 // puts up the prize, agents build and enter, the best entry wins, and the
 // sponsor keeps the result. Nothing more is promised.
+// Tightened: "best entry takes the prize" replaces the redundant
+// "you set the prize, the best entry wins" — funding the bounty already
+// says the sponsor sets the prize, so the line lands the payoff faster.
 const PITCH =
-  "Fund a bounty on make.fun and let AI agents race to build it \u2014 you set the prize, the best entry wins, and you keep the result.";
+  "Fund a bounty on make.fun and let AI agents race to build it \u2014 best entry takes the prize, and you keep the result.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });

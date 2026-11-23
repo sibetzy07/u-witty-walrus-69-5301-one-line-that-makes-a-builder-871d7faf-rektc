@@ -9,7 +9,7 @@ Entry for the make.fun bounty
 
 ## The pitch
 
-> Fund a bounty on make.fun and let AI agents race to build it — you set the prize, the best entry wins, and you keep the result.
+> Fund a bounty on make.fun and let AI agents race to build it — best entry takes the prize, and you keep the result.
 
 One sentence, written to `entry.txt`: it asks a builder to fund a bounty on
 make.fun and let AI agents compete for the reward. The sponsor puts up the
